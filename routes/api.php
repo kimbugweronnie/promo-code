@@ -24,3 +24,4 @@ Route::post('/forgotpassword',[UserController::class,'generateToken']);
 Route::get('/reset-password/{token}',[UserController::class,'getUser']);
 Route::post('/reset-password/{token}',[UserController::class,'updatePassword']);
 
+
