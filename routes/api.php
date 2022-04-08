@@ -25,3 +25,5 @@ Route::get('/reset-password/{token}',[UserController::class,'getUser']);
 Route::post('/reset-password/{token}',[UserController::class,'updatePassword']);
 
 
+Route::get('/permissions',[AdminController::class,'index']);
+Route::post('/permissions',[AdminController::class,'store']);
