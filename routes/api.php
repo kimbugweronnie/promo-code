@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/permissions',[AdminController::class,'index']);
+Route::post('/permissions',[AdminController::class,'store']);
