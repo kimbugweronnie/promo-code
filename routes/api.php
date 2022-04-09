@@ -34,3 +34,4 @@ Route::post('/reset-password/{token}',[UserController::class,'updatePassword']);
 Route::get('/permissions',[AdminController::class,'index']);
 
 Route::post('/permissions',[AdminController::class,'store']);
+Route::post('/logout',[LoginController::class,'logout']);
