@@ -7,6 +7,7 @@ use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\TemplateController;
 
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
